@@ -14,7 +14,7 @@ support get var:
 support js expression in html, for example to render an array list:
 ```html
 <ul>
-    {% arr.forEach((item) => {%}
+    {% [1,2,3,4].forEach((item) => {%}
         {% if(item === 1 || item === 3) { %}
             {% return %}
         {% } else { %}
