@@ -1,8 +1,28 @@
-## tiny template engine
+## Tiny template engine
 
 a weak template engine, and we can use it to render some simple text 😆
 
 only use for study! 😅
+
+### tmplate expression
+
+support get var: 
+```html
+    <p>{{data}}</p>
+```
+
+support js expression in html, for example to render an array list:
+```html
+<ul>
+    {% arr.forEach((item) => {%}
+        {% if(item === 1 || item === 3) { %}
+            {% return %}
+        {% } else { %}
+            <li>{{item}}</li>
+        {% } %}
+    {% }) %}
+</ul>
+```
 
 ### use example:
 ```js
