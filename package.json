@@ -1,0 +1,26 @@
+{
+  "name": "tiny-template-engine",
+  "version": "1.0.0",
+  "description": "a weak template engine, and we can use it to render some simple text;",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilicmu/tinyTemplateEngine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilicmu/tinyTemplateEngine/issues"
+  },
+  "homepage": "https://github.com/kilicmu/tinyTemplateEngine#readme",
+  "dependencies": {
+    "mime": "^2.5.2"
+  }
+}
