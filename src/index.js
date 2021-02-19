@@ -1,8 +1,7 @@
-
 /**
- * 模板渲染原理
- * @param {String} template
- * @param {Object} data
+ * @param {string} template 
+ * @param {object} data
+ * ### 渲染模板
  */
 function render(template, data) {
   let head = "let str = '';with(obj){str+=`",
